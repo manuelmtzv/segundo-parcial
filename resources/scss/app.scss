@@ -25,6 +25,7 @@ a {
 }
 
 table {
+  border-collapse: collapse;
   color: black;
   background-color: white;
   border-color: black;
@@ -59,9 +60,6 @@ table {
     padding: 5px 10px;
     vertical-align: top;
     text-align: center;
-  }
-
-  .values {
     width: 100%;
   }
   
@@ -79,3 +77,5 @@ table {
     text-align: center;   
   }
 }
+
+
