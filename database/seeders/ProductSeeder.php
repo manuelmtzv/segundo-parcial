@@ -15,7 +15,28 @@ class ProductSeeder extends Seeder
    */
   public function run()
   {
-
+    Product::create([
+      "unit_type_id" => 1,
+      "category_id" => 1,
+      "name" => "Pelota Roja",
+      "barcode" => "816",
+      "color" => "Rosado",
+      "url_image" => "",
+      "print_order" => 1,
+      "iva" => 16,
+      "cost_base" => "20",
+      "cost_min" => "18",
+      "cost_max" => "25",
+      "price_base" => "28",
+      "price_min" => "25",
+      "price_max" => "33",
+      "is_saleable" => 1,
+      "is_ticketable" => 1,
+      "is_discountable"  => 1,
+      "is_favorite" => 0,
+      "is_consigment" => 0,
+      "is_product" => 1,
+    ]);
     Product::create([
       "unit_type_id" => 1,
       "category_id" => 1,
